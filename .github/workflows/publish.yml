@@ -9,6 +9,8 @@ env:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: Live
     name: Build and Deploy
     steps:
     - name: Checkout repo
