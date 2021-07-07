@@ -24,3 +24,5 @@ jobs:
         npm run test --if-present
     - name: Deploy
       uses: EndBug/add-and-commit@v7.2.1
+      with:
+        message: "Publish"
