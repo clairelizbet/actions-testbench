@@ -1,0 +1,24 @@
+{
+  "name": "actions-testbench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "docs/index.html",
+  "scripts": {
+    "build": "parcel build web/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clairelizbet/actions-testbench.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clairelizbet/actions-testbench/issues"
+  },
+  "homepage": "https://github.com/clairelizbet/actions-testbench#readme",
+  "devDependencies": {
+    "parcel": "*"
+  }
+}
